@@ -10,9 +10,52 @@ a {
 .logo {
     width: 120px;
     z-index: 99999;
-    left: 20px
+    left: 20px;
+    top:-5px
 }
 
+
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .video-container .video{
+    height: 15rem;
+    width: 24rem ;
+    margin: 2rem;
+    box-shadow: 0 .5rem 1.5rem black;
+    overflow: hidden;
+    border-radius: 2.5rem;
+  }
+  .video-container .video video{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    outline:none ;
+    border:none ;
+    cursor: pointer;
+  }
+  .video-container .video video:hover{
+    transition: 0.2s linear;
+    transform: scale(1.3);
+  }
+  .video-container .video .active{
+    position: absolute;
+    left: 768px;
+    transform: translate(-50%,-50%);
+    height: 580px;
+    width: 1300px;
+    border-radius: 15px;
+    box-shadow: 0 1rem 5rem black;
+    z-index: 1;
+  }
+  .video-container .video .active:hover{
+    transition: none;
+    transform: translate(-50%,-50%) scale(1);  
+  }
+  
 .banner .slick-next:before,
 .banner .slick-prev:before,
 h1:after {
@@ -288,6 +331,8 @@ header {
 .toggle-main {
     z-index: 99999;
     bottom: 50px;
+    
+    background: url(../images/map-Bg-white-contact.jpg);
     text-align: center
 }
 
@@ -505,7 +550,7 @@ header {
     position: fixed;
     right: 0;
     bottom: 50px;
-    /* background: url(../images/map-Bg-white-contact.jpg); */
+    background: url(../images/map-Bg-white-contact.jpg);
     width: 358px;
     height: 333px;
     padding: 15px;
@@ -564,7 +609,8 @@ select.form-control:not([size]):not([multiple]) {
 .about-us {
     padding-top: 90px;
     text-align: center;
-    padding-bottom: 90px
+    padding-bottom: 90px;
+    background: url(../images/map-Bg-white-contact.jpg);
 }
 
 .mainTitle,
@@ -644,7 +690,6 @@ p {
 
 .inner .parallax-window {
     min-height: 350px;
-    background: rgba(0, 0, 0, .9)
 }
 
 .innerwithbanner .parallax-window {
@@ -745,7 +790,8 @@ p {
 
 .section-darkbg {
     padding: 90px 0;
-    color: #333
+    color: #333;
+    background: url(../images/map-Bg-white.jpg) #1d1b1b;
 }
 
 .btn-outer-right,
@@ -1358,6 +1404,7 @@ ul.socialIcons li a {
 
 .left-content,
 .option-2 .left-content {
+    background: url(../images/map-Bg-white.jpg) #1d1b1b;
 }
 
 .banner-inner {
@@ -1756,7 +1803,6 @@ ul.socialIcons li a {
 }
 
 .inner #headerId {
-    background: #000;
     min-height: 94px
 }
 
@@ -2083,14 +2129,16 @@ ul.socialIcons li a {
 
 .cancelMenu img {
     width: 100%;
-    box-shadow: 0 0 5px black;
+    padding: 5px;
+    background-color: #000;
 }
 
 .iconMenu .menu-IconClick {
     position: fixed;
     width: 100%;
+    color: #000;
     height: 100%;
-    background: #1d1b1b;
+    background:url(../images/map-Bg-white.jpg) black;
     background-size: cover
 }
 
@@ -2118,8 +2166,8 @@ ul.socialIcons li a {
 
 .iconMenu .menu-IconClick ul li a {
     display: block;
-    color: #fff;
-    padding: 10px;
+    color: rgb(0, 0, 0);
+    padding: 8px;
     text-transform: uppercase;
     font-size: 28px;
     font-family: Playfair_Display, serif
@@ -3929,7 +3977,6 @@ select option {
     }
     .inner .parallax-window {
         min-height: 350px;
-        background: rgba(0, 0, 0, .9) !important
     }
     .inner .reservation-banner {
         width: 74%;
