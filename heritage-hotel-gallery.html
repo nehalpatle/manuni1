@@ -145,16 +145,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="reservation-banner">
 	<div class="reservation-bannerContainer extrapad">
 		<!-- <form  name="reservationbanner1" id="reservationbanner1" target="_blank" onsubmit="return checkreservation()" action="https://reservations.travelclick.com/105894?" name="bookingFormSubmit"> -->
-		<form id="reservationbanner1" name="reservationbanner1" target="_blank" onsubmit="return checkreservation()" action="https://reservations.travelclick.com/105894?" autocomplete="off">
+		<form id="reservationbanner1" name="reservationbanner1" target="_blank" onsubmit="return checkreservation()" action="" autocomplete="off">
 			<input type="hidden" name="HotelID" value="105894" />
 			<input type="hidden" name="LanguageID" value="1" />
 			<input type="hidden" name="Rooms" value="1" />
-               <input type="hidden" class="datepicker" id="DateIn" name="DateIn">
-               <input type="hidden" class="datepicker" id="DateOut" name="DateOut">
+			<input type="hidden" class="datepicker" id="DateIn" name="DateIn">
+			<input type="hidden" class="datepicker" id="DateOut" name="DateOut">
 			<div class="row">
 				<!-- <div class="col-sm-1">
-								
-							</div> -->
+					
+				</div> -->
 				<div class="col border-right">
 					<div class="form-group">
 						<input type="text" class="form-control datepicker" id="DateIndummy" name="DateIndummy" placeholder="CHECK IN">
@@ -168,65 +168,66 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="col border-right">
 					<div class="form-group">
 						<select class="form-control select" id="Adults" name="Adults">
-							<option selected="selected" value="adult">ADULT</option>
-							<option value="1">1</option>
-							<option  value="2">2</option>
-							<option value="3">3</option>
-							<option  value="4">4</option>
-							<option  value="5">5</option>
-							<option value="6">6</option>
-							<option value="7">7</option>
-							<option value="8">8</option>
-							<option value="9">9</option>
-							<option value="10">10</option>
-						</select>
+				<option selected="selected" value="adult">ADULT</option>
+				<option value="1">1</option>
+				<option  value="2">2</option>
+				<option value="3">3</option>
+				<option  value="4">4</option>
+				<option  value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+			</select>
 					</div>
 				</div>
 				<div class="col border-right">
 					<div class="form-group">
 						<select class="form-control select" id="Children" name="Children">
-							<option selected="selected" value="0">CHILD</option>
-							<option value="1">1</option>
-							<option  value="2">2</option>
-							<option value="3">3</option>
-							<option  value="4">4</option>
-							<option  value="5">5</option>
-							<option value="6">6</option>
-							<option value="7">7</option>
-							<option value="8">8</option>
-							<option value="9">9</option>
-							<option value="10">10</option>
-						</select>
+				<option selected="selected" value="0">CHILD</option>
+				<option value="1">1</option>
+				<option  value="2">2</option>
+				<option value="3">3</option>
+				<option  value="4">4</option>
+				<option  value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+			</select>
 					</div>
 				</div>
 				<div class="col border-right">
 					<div class="btn-outer">
-						<input type="submit" name="sumbit"   class="btn btn-primary sumbit-reservation" value="BOOK NOW">
+						<input type="submit" name="sumbit" class="btn btn-danger" value="BOOK NOW">
 						<!-- <a href="#" class="managereservationLink"  data-toggle="modal" data-target="#openManageReservation">Manage Reservations</a> -->
 					</div>
 				</div>
 
 				<div class="col border-right">
 					<div class="btn-outer">
-						<a href="javascript:void(0)" data-toggle="modal" data-target="#openManageReservation" class="btn btn-primary sumbit-reservation seeoffer">MANAGE RESERVATIONS</a>
+						<a href="javascript:void(0)" data-toggle="modal" data-target="#openManageReservation" class="btn btn-danger seeoffer">MANAGE RESERVATIONS</a>
 					</div>
 				</div>
 
 
 				<div class="col">
 					<div class="btn-outer">
-						<a href="https://www.fortekochi.in/luxury-hotel-special-offer-deals.php" class="btn btn-primary sumbit-reservation seeoffer">SEE OFFERS</a>
+						<a href="#" class="btn btn-danger seeoffer">SEE OFFERS</a>
 					</div>
 				</div>
 
-				
+
 				<!-- <div class="col-sm-1">
-								
-							</div> -->
+					
+				</div> -->
 			</div>
 		</form>
 	</div>
 </div>
+
 
 
 <!-- The Modal -->
@@ -262,18 +263,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<img src="images/menu-button.png" alt="ForteKochi Menu"></a> <a href="javascript:void(0)" class="cancelMenu"><img src="images/cancel.png" alt="ForteKoci Menu"></a>
 	<div class="menu-IconClick">
 		<ul>
-			<li><a href="/">Home
-				<!-- <img src="images/logo.png" alt="logo"> -->
-				</a></li>
-			<li class="menu-item "> <a class="nav-link hvr-underline-from-center" href="luxury-heritage-accommodation.php">Accommodation</a> </li>
-			<li class="menu-item "> <a class="nav-link hvr-underline-from-center" href="jetty-restaurants-dining.php">Dining</a> </li>
-			<li class="menu-item "> <a class="nav-link hvr-underline-from-center" href="luxury-hotel-special-offer-deals.php">Special Offers</a> </li>
-			<li class="menu-item "> <a class="nav-link hvr-underline-from-center" href="luxury-hotel-packages.php">Packages</a> </li>
-			<li class="menu-item active"> <a class="nav-link hvr-underline-from-center" href="heritage-hotel-gallery.php">Gallery</a> </li>
-			<li class="nav-item "> <a class="nav-link hvr-underline-from-center" href="travel-diary.php">Travel Diary</a> </li>
-               <li class="nav-item "> <a class="nav-link hvr-underline-from-center" href="covid19Update.php">Covid 19 Updates</a> </li>
-               <li class="menu-item "> <a class="nav-link hvr-underline-from-center" href="https://voucher.staah.net/g2c/index.php?propid=260" target="_blank">Gifting</a> </li>
-			<li class="menu-item "> <a class="nav-link hvr-underline-from-center" href="luxury-hotel-cochin-contacts.php">Contact Us</a> </li>
+			<li class="menu-item active"><a href="/" class="nav-link hvr-underline-from-center">Home</a></li>
+			<li class="menu-item "> <a class="nav-link hvr-underline-from-center" href="accomodation.html">Accommodation</a> </li>
+			<li class="menu-item "> <a class="nav-link hvr-underline-from-center" href="#">Dining</a> </li>
+			<li class="menu-item "> <a class="nav-link hvr-underline-from-center" href="heritage-hotel-gallery.html">Gallery</a> </li>
+			<li class="nav-item "> <a class="nav-link hvr-underline-from-center" href="travel-diary.html">Travel Diary</a> </li>
+			<li class="nav-item "> <a class="nav-link hvr-underline-from-center" href="#">Covid 19 Updates</a> </li>
+			<!-- <li class="menu-item"> <a class="nav-link hvr-underline-from-center" href="javascript:void(0)" data-toggle="modal" data-target=" #openManageReservation">Manage Reservations</a> </li> -->
+			<li class="menu-item "> <a class="nav-link hvr-underline-from-center" href="#">Contact Us</a> </li>
+
+
 			<!-- <li class="nav-item> <a class="nav-link hvr-underline-from-center"> <a href="javascript:void(0)" class="book-stay pointer-eventnone">Book My Stay</a> </li> -->
 		</ul>
 		<ul class="socialIcons-header">
@@ -498,24 +497,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="row">
 			<div class="col-sm-5"> <a href="/" class="footer-logo"><img src="images/logoreverse/logo.png" alt="forte kochi hotel"></a>
 				<div class="about-adress">
-					<p>Dharamshala,</p>
-					<p>Kochi, Kerala,</p>
-					<p>India 682001.</p>
+					<p>Mohli Lahrandi,</p>
+					<p>Himachal Pradesh</p>
+					<p>India</p>
 					<ul>
 						<li><i class="fa fa-map-marker" aria-hidden="true"></i><a href="https://goo.gl/maps/LorrKBb22Sx" target="_blank">View Map</a></li>
-						<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:reservationfk@thepaul.in">reservationfk@thepaul.in</a></li>
-						<li><i class="fa fa-phone" aria-hidden="true"></i><a href="#">+91 484 270 4800</a></li>
+						<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="amitsml@gmail.com">amitsml@gmail.com</a></li>
+						<li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+917018505884">+917018505884</a></li>
 					</ul>
-					<!-- <img src="images/tripadvisor.png" alt=""> -->
-                         <p class="font12">Manuni Inn is a part of Paul John Resorts &amp; Hotels</p>
-                         <div class="row footerpropertylogo">
-                              <div class="col-sm-6">
-                                   <a href="https://www.kumarakomlakeresort.in" target="_blank"> <img src="images/kumarakomlakeresort-logo.png" alt="Kumarakom Lake Resort" class=""></a>
-                              </div>
-                              <div class="col-sm-6">
-                                   <a href="https://www.thepaulbangalore.in" target="_blank"> <img src="images/thepaulbangalore-logo.png" alt="The Paul Bangalore" class="imgtop"></a>
-                              </div>
-                         </div>
+					
 				</div>
 			</div>
 			<div class="col-sm-3">
@@ -524,6 +514,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<li class="nav-item "> <a class="nav-link" href="accomodation.html">Accommodation</a> </li>
 					<li class="nav-item "> <a class="nav-link" href="">Dining</a> </li>
 					<li class="nav-item "> <a class="nav-link" href="heritage-hotel-gallery.html">Gallery</a> </li>
+					<li><a href="travel-diary.html">Travel Diary</a></li>
 					<li class="nav-item "> <a class="nav-link" href="">Contact Us</a> </li>
 
 				</ul>
@@ -532,7 +523,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<ul class="footerMenu">
 					<li><a href="luxury-heritage-hotel-from-paul-john-resorts-and-hotels.php">About</a></li>
 					<li> <a href="luxury-heritage-hotel-facilities.php">Facilities</a> </li>
-					<li><a href="https://www.pauljohnhotels.com/" target="_blank">Paul John Resorts &amp; Hotels</a></li>
 				</ul>
 				<ul class="socialIcons">
 					<li><a href="https://www.facebook.com/ForteKochi/" target="_blank" ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -543,12 +533,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<li><a href="https://plus.google.com/b/109928842486350937697/"  target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
 					<li></li>
 				</ul>
-			
+				
 <script async src="https://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=749&amp;locationId=13949229&amp;lang=en_IN&amp;border=true&amp;display_version=2"></script>
 			</div>
 		</div>
 	</div>
-	<div class="footerbottomNav"> © 2019 Forte Kochi.  All rights reserved. | <a href="https://www.fortekochi.in/sitemap/" class="sitemaplink">Sitemap</a> | <a href="privacy-policy.php" class="sitemaplink">Privacy Policy</a> | <a href="cookie-policy.php" class="sitemaplink">Cookie Policy</a> </div>
+	<div class="footerbottomNav"> © 2019 Manuni Inn.  All rights reserved. | <a href="" class="sitemaplink">Sitemap</a> | <a href="" class="sitemaplink">Privacy Policy</a> | <a href="" class="sitemaplink">Cookie Policy</a> </div>
 </footer>
 <script>(function(a,b){var c=a.createElement("script");c.src="https://onboard.triptease.io/bootstrap.js?integrationId="+b,c.defer=true,c.async=true,c.type="text/javascript";var d=document.getElementsByTagName("script")[0];d.parentNode.insertBefore(c,d)})(document,"01DC3S68T8CDGQ4D0BMF517WFK");</script><script src="js/jquery-3.2.1.js"></script>
 <script src="js/popper.min.js"></script>
