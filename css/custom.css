@@ -2302,37 +2302,37 @@ ul.socialIcons li a {
 }
 
 .bg3 {
-    background: url(../images/logoreverse/IMG_3579.jpg) no-repeat;
+    background: url(../images/logoreverse/IMG_3566\ 2.jpg) no-repeat;
     background-size: cover
 }
 
 .bg4 {
-    background: url(../images/logoreverse/IMG_3579.jpg) no-repeat;
+    background: url(../images/logoreverse/IMG_3374.jpg) no-repeat;
     background-size: cover
 }
 
 .bg5 {
-    background: url(../images/logoreverse/IMG_3579.jpg) no-repeat;
+    background: url(../images/logoreverse/IMG_3681.jpg) no-repeat;
     background-size: cover
 }
 
 .bg6 {
-    background: url(../images/logoreverse/IMG_3579.jpg) no-repeat;
+    background: url(../images/logoreverse/IMG_3583.jpg) no-repeat;
     background-size: cover
 }
 
 .bg7 {
-    background: url(../images/logoreverse/IMG_3579.jpg) no-repeat;
+    background: url(../images/logoreverse/IMG_3376.jpg) no-repeat;
     background-size: cover
 }
 
 .bg8 {
-    background: url(../images/logoreverse/IMG_3581.jpg) no-repeat;
+    background: url(../images/logoreverse/IMG_3627.jpg) no-repeat;
     background-size: cover
 }
 
 .bg9 {
-    background: url(../images/logoreverse/IMG_3579.jpg) no-repeat;
+    background: url(../images/logoreverse/IMG_3562.jpg) no-repeat;
     background-size: cover
 }
 
@@ -2671,7 +2671,6 @@ select option {
     margin-bottom: 15px;
     box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .75);
     color: #c8bca5;
-    min-height: 595px;
 }
 
 #location .boxSec .mainTitle {
