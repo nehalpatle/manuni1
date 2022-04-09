@@ -6,10 +6,10 @@
         position: relative;
         display: block
     }
-    #img12{
+    /* #img12{
         margin-top: 20px;
         height: 600px;
-    }
+    } */
     .slick-loading .slick-slide,
     .slick-loading .slick-track {
         visibility: hidden
