@@ -7,9 +7,46 @@
         display: block
     }
 
-    /*
+    /**
     edited
 */
+.accordion {
+    background-color: rgb(238, 231, 197);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.4s;
+  }
+  
+ .accordion:hover {
+    background-color: rgb(247, 245, 203);
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    float: right;
+    border: none;
+    margin-left: 5px;
+  }
+
+  .panel {
+    padding: 4px 18px;
+    background-color: rgb(247, 243, 223);
+    max-height: 0;
+    margin-top: 2px;
+    font-weight: bold;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
 .dsn-title-menu{
     margin-left: 25px;
   }
