@@ -14,7 +14,11 @@ a {
     top:-10px
 }
 
-
+#img-acc{
+    width: 690px;
+    height: 450px;
+    border-radius: 10px;
+}
 
 .video-container{
     display: flex;
@@ -1799,7 +1803,6 @@ ul.socialIcons li a {
 .facility-fade,
 .special-offer-fade,
 .jetty-restaurant-fade {
-    opacity: 0
 }
 
 .inner #headerId {
