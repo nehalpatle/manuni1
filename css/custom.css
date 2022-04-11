@@ -20,6 +20,11 @@ a {
     border-radius: 10px;
 }
 
+#guide{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
 .video-container{
     display: flex;
     justify-content: center;
