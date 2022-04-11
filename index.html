@@ -29,84 +29,11 @@
     <link rel="canonical" href="https://www.fortekochi.in/" />
     <link rel="stylesheet" href="css/custom.css?1649127134">
     <link rel="stylesheet" href="css/css.css">
-    <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="Manuni Inn - Boutique Hotel in the midst of Manuni Inn">
-    <meta itemprop="description" content="Step into a world gracefully tucked in the glories of the past, brimming with regal heritage and plush luxury.">
-    <meta itemprop="image" content="images/bg.jpg">
-    <!-- Twitter Data -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@fortekochi">
-    <meta name="twitter:title" content="Manuni Inn - Boutique Hotel in the midst of Manuni Inn">
-    <meta name="twitter:description" content="Step into a world gracefully tucked in the glories of the past, brimming with regal heritage and plush luxury.">
-    <meta name="twitter:creator" content="@fortekochi">
-    <meta name="twitter:image" content="images/bg.jpg">
-    <!-- Open Graph data -->
-    <meta property="og:title" content="Manuni Inn - Boutique Hotel in the midst of Manuni Inn" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.fortekochi.in/" />
-    <meta property="og:image" content="images/bg.jpg" />
-    <meta property="og:description" content="Step into a world gracefully tucked in the glories of the past, brimming with regal heritage and plush luxury." />
-
-
-    <!-- Global site tag (gtag.js) - Google Ads: 730659431 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-730659431"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-730659431');
-    </script>
-
-    <!-- 
-Start of global snippet: Please do not remove
-Place this snippet between the <head> and </head> tags on every page of your site.
--->
-    <!-- Global site tag (gtag.js) - Google Marketing Platform -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=DC-9488798"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'DC-9488798');
-    </script>
-    <!-- End of global snippet: Please do not remove -->
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145323346-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-145323346-2');
-    </script>
-
- 
-    <!-- End Google Tag Manager -->
-
-
-    <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=642172303738359&ev=PageView&noscript=1"
-/></noscript>
-    <!-- End Facebook Pixel Code -->
+   
 </head>
 
 <body id="main" class="containerWidth">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MX8RLL7"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+   
 
     <div class="scrollDown" id="mouseIcon">
         <a href="#aboutbg" onMouseDown="autoScrollTo('aboutbg');">
@@ -193,23 +120,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</select>
                                 </div>
                             </div>
+
+                            <div class="col border-right">
+                                <div class="form-group">
+                                    <select class="form-control select" id="Children" name="Children">
+							<option selected="selected" value="0">Rooms</option>
+							<option value="1">1</option>
+							<option  value="2">2</option>
+							<option value="3">3</option>
+							<option  value="4">4</option>
+							<option  value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+						</select>
+                                </div>
+                            </div>
+                            
                             <div class="col border-right">
                                 <div class="btn-outer">
                                     <input type="submit" name="sumbit" class="btn btn-danger" value="BOOK NOW">
                                     <!-- <a href="#" class="managereservationLink"  data-toggle="modal" data-target="#openManageReservation">Manage Reservations</a> -->
-                                </div>
-                            </div>
-
-                            <div class="col border-right">
-                                <div class="btn-outer">
-                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#openManageReservation" class="btn btn-danger seeoffer">MANAGE RESERVATIONS</a>
-                                </div>
-                            </div>
-
-
-                            <div class="col">
-                                <div class="btn-outer">
-                                    <a href="#" class="btn btn-danger seeoffer">SEE OFFERS</a>
                                 </div>
                             </div>
 
@@ -230,14 +163,75 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <!-- Modal Header -->
                         <div class="modal-header">
-                            <h4 class="modal-title">Manage Reservation</h4>
+                            <h4 class="modal-title">BOOK NOW</h4>
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>
 
                         <!-- Modal body -->
                         <div class="modal-body">
                             <form id="confirmnumberform">
-                                <input type="text" name="confirmNumber" class="confirmnumber" placeholder="Please enter your confirmation number ">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <label>Check In</label>
+                                        <input type="date" class="form-control datepicker mb-2" id="DateIndummy" name="DateIndummy" placeholder="CHECK IN">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label>Check In</label>
+                                        <input type="date" class="form-control datepicker mb-2" id="DateIndummy" name="DateIndummy" placeholder="CHECK IN">
+                                    </div>
+                                </div>
+                                <p> </p>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <label>Select Adult</label>
+                                        <select class="form-control select" id="Adults" name="Adults">
+                                            <option selected="selected" value="adult">ADULT</option>
+                                            <option value="1">1</option>
+                                            <option  value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option  value="4">4</option>
+                                            <option  value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <label>Select Child</label>
+                                        <select class="form-control select" id="Children" name="Children">
+                                            <option selected="selected" value="0">CHILD</option>
+                                            <option value="1">1</option>
+                                            <option  value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option  value="4">4</option>
+                                            <option  value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <label>Select Room</label>
+                                        <select class="form-control select" id="Adults" name="Adults">
+                                            <option selected="selected" value="adult">ROOMS</option>
+                                            <option value="1">Superior</option>
+                                            <option  value="2">classic</option>
+                                            <option value="3">3</option>
+                                            <option  value="4">4</option>
+                                            <option  value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
                                 <input type="submit" name="" class="confirmsubmit" value="SUMBIT">
                                 <!--  <a href="#" target="_blank" class="confirmsubmit" >SUMBIT</a> -->
                             </form>
@@ -361,6 +355,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-md-12 ">
+                                                <div class="form-group">
+                                                    <select class="form-control" id="child" name="Children">
+						<option selected="selected" value="0">Room</option>
+						<option value="1">Superior</option>
+						<option  value="2">classic</option>
+						<option value="3">3</option>
+						<option  value="4">4</option>
+						<option  value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-md-12 ">
                                                 <div class="btn-outer">
                                                     <input type="submit" name="sumbit" class="btn btn-danger" value="BOOK NOW">
                                                 </div>
@@ -387,18 +398,79 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <!-- Modal Header -->
                         <div class="modal-header">
-                            <h4 class="modal-title">Manage Reservations</h4>
+                            <h4 class="modal-title">Book Now</h4>
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>
 
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                            <form id="confirmnumberform">
-                                <input type="text" name="confirmNumber" class="confirmnumber" placeholder="Please enter your confirmation number ">
-                                <input type="submit" name="" class="confirmsubmit" value="SUMBIT">
-                                <!--  <a href="#" target="_blank" class="confirmsubmit" >SUMBIT</a> -->
-                            </form>
-                        </div>
+                       <!-- Modal body -->
+                       <div class="modal-body">
+                        <form id="confirmnumberform">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label>Check In</label>
+                                    <input type="date" class="form-control datepicker mb-2" id="DateIndummy" name="DateIndummy" placeholder="CHECK IN">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label>Check In</label>
+                                    <input type="date" class="form-control datepicker mb-2" id="DateIndummy" name="DateIndummy" placeholder="CHECK IN">
+                                </div>
+                            </div>
+                            <p> </p>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <label>Select Adult</label>
+                                    <select class="form-control select" id="Adults" name="Adults">
+                                        <option selected="selected" value="adult">ADULT</option>
+                                        <option value="1">1</option>
+                                        <option  value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option  value="4">4</option>
+                                        <option  value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-4">
+                                    <label>Select Child</label>
+                                    <select class="form-control select" id="Children" name="Children">
+                                        <option selected="selected" value="0">CHILD</option>
+                                        <option value="1">1</option>
+                                        <option  value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option  value="4">4</option>
+                                        <option  value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-4">
+                                    <label>Select Room</label>
+                                    <select class="form-control select" id="Adults" name="Adults">
+                                        <option selected="selected" value="adult">ROOMS</option>
+                                        <option value="1">Superior</option>
+                                        <option  value="2">classic</option>
+                                        <option value="3">3</option>
+                                        <option  value="4">4</option>
+                                        <option  value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <input type="submit" name="" class="confirmsubmit" value="SUMBIT">
+                            <!--  <a href="#" target="_blank" class="confirmsubmit" >SUMBIT</a> -->
+                        </form>
+                    </div>
 
 
 
@@ -452,7 +524,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h1>Manuni Inn Heritage Hotel welcomes you</h1>
+                        <h1>OVERVIEW</h1>
+                        <h5>Elegant and Secluded</h5><p></p>
                     </div>
                 </div>
                 <div class="row ataglance">
@@ -519,16 +592,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="col-lg-6">
                             <div class="boxSec equalheight FL">
                                 <div class="">
-                                    <h2 class="mainTitle">A Boutique Hotel in the midst of Dharamshala Cultural District</h2>
+                                    <h2 class="mainTitle">Boutique Hotel on the Manuni Riverside.</h2>
                                     <div class="displayDesk">
-                                        <p>Manuni Inn is located on the beautiful Princess Street - The Crowning Jewel of Manuni Inn.</p>
-                                        <p>Just a leisurely 30-minute drive from Ernakulam (Cochin) Junction (the nearest train station) and an hour's drive from Cochin International Airport, Hotel Manuni Inn is a short distance from all of Manuni Inn's
-                                            innumerable attractions.</p>
-                                        <p>Start your day with a walk to Vasco De Gama square and stroll along the picturesque Beach Walkway on Mahatma Gandhi Beach or marvel at the nearby Chinese fishing nets - a centuries-old remnant of the trade route,
-                                            and now an indelible part of Kochi's heritage.</p>
-                                        <p>A memorable ferry ride lets you immerse yourself in the history of India at the culturally significant Our Lady of Hope Church and a short drive will take you to the famous Mattanchery Palace.</p>
-                                        <p>The tree-lined boulevards around Manuni Inn offer myriads of cuisines, that is, if you're inclined to step out from our in-house multi-cuisine restaurant - The Jetty! True to the city's multi-cultural roots, Jetty
-                                            offers a choice of British, pan-European, and Indian dishes. Don't miss out on the local Kerala cuisine and seafood dishes on offer!</p>
+                                        <p>At an altitude of 1315 M above sea level at Dharamshala, Manuni Inn offers a sublime slice of elegant 21 rooms on the Himalayan foothills, with an emphasis on elegant simplicity. Manuni Inn is located right in the lap of the picturesque steep Dhauladhar Mountains, in the enchanting village of Khanyara, Dharamshala.</p>
+
+                                            <p>Enjoy the musical sound of the gushing water, rise up with the rays of the Sun. Live in a wonderful world that is full of beauty, charm and adventure.</p>
+                                            
+                                            <p>Welcome to Manuni Inn a riverside boutique hotel where you are away from the rush of the city, Enjoy the serenity, beauty of nature, calmness, pristine waters of the River Manuni, cool breeze of pine forest and admire the nature.</p>
                                     </div>
                                     <div class="displayMob">
                                         <p>Manuni Inn is located on the beautiful Princess Street - The Crowning Jewel of Manuni Inn.</p>
@@ -539,8 +609,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <p>The tree-lined boulevards around Manuni Inn offer myriads of cuisines, but don’t forget to taste the best of the local Kerala and seafood specialties at our in-house multi-cuisine restaurant, Jetty!</p>
                                     </div>
                                     <div class="btnWrap">
-                                        <a href="luxury-hotel-special-offer-deals.php" class="btn btn-danger">SEE OFFERS</a>
-                                        <a href="luxury-hotel-packages.php" class="btn btn-danger">SEE PACKAGES</a>
+                                        <a href="travel-diary.html" class="btn btn-danger">SEE MORE</a>
                                     </div>
                                 </div>
                             </div>
@@ -579,7 +648,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                             
                                                                         </ul>
                                                                     </div>
-                                                                    <div class="mypricing_price_btn clearfix"> <a class="contact-btn-txt" href="rooms.html">See More</a> </div>
+                                                                    <div class="mypricing_price_btn clearfix"> <a class="contact-btn-txt btn-danger" href="accomodation.html">See More</a> </div>
                                         </div>
                                     </div>
                                 <div>
@@ -599,7 +668,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                
                                             </ul>
                                         </div>
-                                        <div class="mypricing_price_btn clearfix"> <a class="contact-btn-txt" href="rooms.html">See More</a> </div>
+                                        <div class="mypricing_price_btn clearfix"> <a class="contact-btn-txt btn-danger" href="accomodation.html">See More</a> </div>
                                     </div>
                                 </div>
                                 <div>
@@ -619,7 +688,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                
                                             </ul>
                                         </div>
-                                        <div class="mypricing_price_btn clearfix"> <a class="contact-btn-txt" href="rooms.html">See More</a> </div>
+                                        <div class="mypricing_price_btn clearfix"> <a class="contact-btn-txt btn-danger" href="accomodation.html">See More</a> </div>
                                     </div>
                                 </div>
                             </div>
@@ -655,13 +724,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="bgdark boxWidth  dining-fade">
-                        <h3 class="mainTitle">Luxury Amenities</h3>
+                        <h3 class="mainTitle">Luxury Rooms</h3>
                         <div class="clearfix"></div>
                         <div class="row">
-                            <div class="col-md-6 img100"> <img src="images/dining-thumb.jpg" alt="Manuni Inn Dining"> </div>
+                            <div class="col-md-6 img100"> <img src="images/logoreverse/102 SUPERIOR ROOMnew.jpeg" alt="Manuni Inn Dining"> </div>
                             <div class="col-md-6">
-                                <p>Set in the central courtyard of the hotel, with a natural well on a side, the swimming pool beckons for a lazy swim, a refreshing lap or just a nice snooze under the sun.</p>
-                                <div class="btn-outer-right"> <a href="#" target="_blank" class="btn btn-primary readmore">BOOK NOW </a> </div>
+                                <p>Manuni Inn a riverside boutique hotel is situated in the countryside of Dharamshala, hotel is a retreat for guests to enjoy picturesque nature from the comfort of your room.</p>
+                                <div class="btn-outer-right"><a href="javascript:void(0)" data-toggle="modal" data-target="#openManageReservation" class="btn btn-danger seeoffer btn btn-primary readmore">Book Now</a></div>
                             </div>
                         </div>
                     </div>
@@ -672,10 +741,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <h3 class="mainTitle">Guest Facilities</h3>
                         <div class="clearfix"></div>
                         <div class="row">
-                            <div class="col-md-6 img100"> <img src="images/facilities-thumb.jpg" alt="Manuni Inn Facilities"> </div>
+                            <div class="col-md-6 img100"> <img src="images/logoreverse/105 SUPER DELUXEnew.jpeg" alt="Manuni Inn Facilities"> </div>
                             <div class="col-md-6">
                                 <p>Take advantage of our Concierge services, the travel desk, wifi, the library or our coffee lounge and allow us to turn your stay here into a truly relaxing vacation.</p>
-                                <div class="btn-outer-right"> <a href="luxury-heritage-hotel-facilities.php" class="btn btn-primary readmore">SEE MORE </a> </div>
+                                <div class="btn-outer-right"> <a href="facilities.html" class="btn btn-primary readmore">SEE MORE </a> </div>
                             </div>
                         </div>
                     </div>
@@ -700,7 +769,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <div class="col-md-6 paddingleft0">
                                     <p>A TALE of TWO LEGACIES – Come, experience the two distinct cultural worlds of Kerala! Travel back to time and explore the rich history of Manuni Inn for a night or two; an hour’s drive takes you to the idyllic backwaters
                                         of Kumarakom where you can stay at the resort as well as in one of our luxurious houseboats.</p>
-                                    <div class="btn-outer-right margintop30"> <a href="" class="btn btn-danger">VIEW DETAILS</a> </div>
+                                    <div class="btn-outer-right margintop30"> <a href="contact.html" class="btn btn-danger">Get Details</a> </div>
                                 </div>
                             </div>
                         </div>
@@ -868,7 +937,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
         </div>
-        <div class="footerbottomNav"> © 2019 Manuni Inn.  All rights reserved. | <a href="" class="sitemaplink">Sitemap</a> | <a href="" class="sitemaplink">Privacy Policy</a> | <a href="" class="sitemaplink">Cookie Policy</a> </div>
+        <div class="footerbottomNav"> © 2019 Manuni Inn.  All rights reserved. |  </div>
     </footer>
     <script>
         (function(a, b) {

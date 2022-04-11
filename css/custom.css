@@ -1976,7 +1976,8 @@ ul.socialIcons li a {
     position: fixed;
     bottom: auto;
     top: 10px;
-    z-index: 999999
+    z-index: 999999;
+    border-radius: 7px;
 }
 
 .inner .reservation-banner {
@@ -1992,7 +1993,7 @@ ul.socialIcons li a {
 .reservation-bannerContainer {
     width: 100%;
     margin: 0 auto;
-    padding: 15px
+    padding: 15px;
 }
 
 .reservation-banner .form-group {
