@@ -239,13 +239,13 @@
 	<img src="images/menu-button.png" alt="Manuni Menu"></a> <a href="javascript:void(0)" class="cancelMenu"><img src="images/cancel.png" alt=""></a>
 	<div class="menu-IconClick">
         <ul>
-            <li class="menu-item active"><a href="index.html" class="nav-link hvr-underline-from-center">Home</a></li>
+            <li class="menu-item "><a href="index.html" class="nav-link hvr-underline-from-center">Home</a></li>
             <li class="menu-item "> <a class="nav-link hvr-underline-from-center" href="accomodation.html">Accommodation</a> </li>
             <li class="menu-item "> <a class="nav-link hvr-underline-from-center" href="dining.html">Dining</a> </li>
             <li class="menu-item "> <a class="nav-link hvr-underline-from-center" href="heritage-hotel-gallery.html">Gallery</a> </li>
             <li class="nav-item "> <a class="nav-link hvr-underline-from-center" href="travel-diary.html">SIGHT SEEING</a> </li>
             <li class="nav-item "> <a class="nav-link hvr-underline-from-center" href="facilities.html">Facilities</a> </li>
-            <li class="nav-item "> <a class="nav-link hvr-underline-from-center" href="faq.html">FAQs</a> </li>
+            <li class="nav-item active"> <a class="nav-link hvr-underline-from-center" href="faq.html">FAQs</a> </li>
             <!-- <li class="menu-item"> <a class="nav-link hvr-underline-from-center" href="javascript:void(0)" data-toggle="modal" data-target=" #openManageReservation">Manage Reservations</a> </li> -->
             <li class="menu-item "> <a class="nav-link hvr-underline-from-center" href="contact.html">Contact Us</a> </li>
 
@@ -253,9 +253,9 @@
             <!-- <li class="nav-item> <a class="nav-link hvr-underline-from-center"> <a href="javascript:void(0)" class="book-stay pointer-eventnone">Book My Stay</a> </li> -->
         </ul>
 		<ul class="socialIcons-header">
-			<li><a href="https://www.facebook.com/Manuni/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-			<li><a href="https://www.youtube.com/channel/UCUVBCwPu-lqbsVATR3NNS2Q?disable_polymer=true" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-			<li><a href="https://www.instagram.com/Manuni/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			<li><a href="https://m.facebook.com/102116829037851/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+			<li><a href="" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+			<li><a href="https://www.instagram.com/hotel_manuni_inn/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 		</ul>
 	</div>
 	<div class="header-bottom" id="header-bottom">
@@ -284,12 +284,12 @@
 						<div class="collapse navbar-collapse" id="navbarNavDropdown">
 							<ul class="navbar-nav">
 								<li class="nav-item "> <a class="nav-link hvr-underline-from-center" href="index.html">HOME</a> </li>
-								<li class="nav-item active"> <a class="nav-link hvr-underline-from-center" href="accomodation.html">Accommodation</a> </li>
+								<li class="nav-item "> <a class="nav-link hvr-underline-from-center" href="accomodation.html">Accommodation</a> </li>
 								<li class="nav-item "> <a class="nav-link hvr-underline-from-center" href="dining.html">Dining</a> </li>
 								<li class="nav-item"> <a class="nav-link hvr-underline-from-center" href="heritage-hotel-gallery.html">Gallery</a> </li>
                                         <li class="nav-item "> <a class="nav-link hvr-underline-from-center" href="travel-diary.html">SIGHT SEEING</a> </li>
                                         <li class="nav-item "> <a class="nav-link hvr-underline-from-center" href="facilities.html">Facilities</a> </li>
-										<li class="nav-item "> <a class="nav-link hvr-underline-from-center" href="faq.html">FAQs</a> </li>
+										<li class="nav-item active"> <a class="nav-link hvr-underline-from-center" href="faq.html">FAQs</a> </li>
 								<li class="nav-item "> <a class="nav-link hvr-underline-from-center" href="contact.html">Contact Us</a> </li>
 								<!-- <li class="nav-item> <a class="nav-link hvr-underline-from-center"> <a href="javascript:void(0)" class="book-stay pointer-eventnone">Book My Stay</a> </li> -->
 							</ul>
@@ -351,15 +351,25 @@
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-12 ">
+				<div class="form-group">
+				<select class="form-control" id="room_type" >
+					<option value="0" selected>Select Room/Suite </option>
+					<option value="1"> Standard </option>
+					<option value="2"> Deluxe </option>
+					<option value="3"> Superior Deluxe </option>
+					<option value="4"> Premier Deluxe  </option>
+					<option value="5"> Executive Suite </option>
+					<option value="6"> Junior Suite </option>
+					<option value="7"> Honeymoon Suite </option>
+				</select>
+			</div>
+		  </div>  
+			<div class="col-sm-12 col-md-12 ">
 				<div class="btn-outer">
 					<input type="submit" name="sumbit"   class="btn btn-danger " value="BOOK NOW">
 				</div>
 			</div>
-			<div class="col-sm-12 col-md-12 ">
-				<div class="btn-outer">
-					<a href="" data-toggle="modal" data-target="#openManageReservation" class="btn btn-danger  seeoffer managereservationmobile">MANAGE RESERVATIONS</a>
-				</div>
-			</div>
+			
 		</div>
 	</form>
 </div>
@@ -479,12 +489,12 @@
 					<li> <a href="facilities.html">Facilities</a> </li>
 				</ul>
 				<ul class="socialIcons">
-					<li><a href="https://www.facebook.com/ForteKochi/" target="_blank" ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="https://m.facebook.com/102116829037851/" target="_blank" ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					<!-- <li><a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a></li> -->
-					<li><a href="https://twitter.com/ForteKochi" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					<li><a href="https://www.youtube.com/channel/UCUVBCwPu-lqbsVATR3NNS2Q?disable_polymer=true"  target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-					<li><a href="https://www.instagram.com/fortekochi/"  target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					<li><a href="https://plus.google.com/b/109928842486350937697/"  target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+					<li><a href="" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href=""  target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.instagram.com/hotel_manuni_inn/"  target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href=""  target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
 					<li></li>
 				</ul>
 				
