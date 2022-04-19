@@ -15,16 +15,13 @@ a {
 }
 
 #img-acc{
-    width: 690px;
-    height: 450px;
     border-radius: 10px;
 }
 
 #guide{
-    width: 400px;
-    height: 300px;
     border-radius: 10px;
 }
+
 .video-container{
     display: flex;
     justify-content: center;
@@ -2307,7 +2304,7 @@ ul.socialIcons li a {
 }
 
 .bg2 {
-    background: url(../images/logoreverse/IMG_3579.jpg) no-repeat;
+    background: url(../images/logoreverse/IMG_3627.jpg) no-repeat;
     background-size: cover
 }
 
@@ -2322,7 +2319,7 @@ ul.socialIcons li a {
 }
 
 .bg5 {
-    background: url(../images/logoreverse/IMG_3681.jpg) no-repeat;
+    background: url(../images/logoreverse/IMG_3581.jpg) no-repeat;
     background-size: cover
 }
 
@@ -2347,12 +2344,12 @@ ul.socialIcons li a {
 }
 
 .bg10 {
-    background: url(../images/logoreverse/IMG_3579.jpg) no-repeat;
+    background: url(../images/logoreverse/IMG_3627.jpg) no-repeat;
     background-size: cover
 }
 
 .bg11 {
-    background: url(../images/logoreverse/IMG_3581.jpg) no-repeat;
+    background: url(../images/logoreverse/IMG_3681bn.jpg) no-repeat;
     background-size: cover
 }
 
